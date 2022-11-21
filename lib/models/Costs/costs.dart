@@ -1,4 +1,4 @@
-part of 'models.dart';
+part of '../models.dart';
 
 class Costs extends Equatable {
   final String? service;
@@ -15,7 +15,7 @@ class Costs extends Equatable {
             .toList(),
       );
 
-  Map<String, dynamic> toMap() => {
+  Map<String, dynamic> toJson() => {
         'service': service,
         'description': description,
         'cost': cost?.map((e) => e.toJson()).toList(),

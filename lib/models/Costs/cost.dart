@@ -1,5 +1,4 @@
-part of 'models.dart';
-
+part of '../models.dart';
 
 class Cost extends Equatable {
   final int? value;

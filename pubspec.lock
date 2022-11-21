@@ -107,6 +107,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.2"
+  intl:
+    dependency: "direct main"
+    description:
+      name: intl
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.17.0"
   js:
     dependency: transitive
     description:
@@ -114,6 +121,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.6.4"
+  lazy_loading_list:
+    dependency: "direct main"
+    description:
+      name: lazy_loading_list
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.1"
   lints:
     dependency: transitive
     description:
